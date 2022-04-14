@@ -1,0 +1,35 @@
+.nav-bg{
+    background-color: antiquewhite;
+}
+
+ul > li > a {
+    text-decoration: none;
+    color: black;
+}
+
+.gallery{
+    width: 100%;
+    height: 70vh;
+    background: url('./images/gallery.jpg');
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.gallery-btn{
+    text-align: center;
+    margin-top: 30vh;
+}
+
+.article-card{
+    border: 2px solid #fff;
+    position: relative;
+    left: -6rem;
+}
+@media only screen and (max-width: 756px){
+    .article-card{
+        border: 2px solid #fff;
+        position: relative;
+        left: 0rem;
+    }
+}
